@@ -1,0 +1,26 @@
+{
+  "width" : 400,
+  "height": 400,
+  "cities": [["Seattle", [25, 25]], ["Boston", [375, 25]], ["Texas", [250, 375]]],
+  "connections": {
+    "Boston": {
+      "Seattle": {"red": 3, "blue": 3, "white": 3},
+      "Texas": {"green": 3}
+    },
+    "Seattle": {"Texas": {"blue": 3}}}
+}
+{
+  "this": {
+    "destination1": ["Boston", "Seattle"],
+    "destination2": ["Seattle", "Texas"],
+    "rails": 250,
+    "cards": {
+      "red": 2,
+      "white": 3,
+      "blue": 5,
+      "green": 0
+    },
+    "acquired": []
+  },
+  "acquired": [[]]
+}

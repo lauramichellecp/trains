@@ -1,0 +1,51 @@
+{
+  "width" : 400,
+  "height": 400,
+  "cities": [["Seattle", [25, 25]], ["Boston", [375, 25]], ["Texas", [250, 375]], ["Raleigh", [350, 350]],
+              ["New York", [399, 30]], ["Miami", [306, 300]]],
+  "connections": {
+    "Boston": {
+      "Seattle": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "Texas": {"blue": 3},
+      "Miami": {"red": 5, "blue": 5}
+    },
+    "Raleigh": {"Seattle": {"blue": 3}},
+    "Texas": {
+      "Miami":  {"red":  5, "blue":  5},
+      "New York": {"blue": 3, "red": 4}
+    }
+  }
+}
+[["winner", "Hold-10"], ["second", "Buy-Now"]]
+["red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue",
+  "red", "green", "white", "blue", "red", "green", "white", "blue", "red", "green"]
+}
