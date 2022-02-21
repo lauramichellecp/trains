@@ -10,9 +10,6 @@ game and soon to be built surrounding infrastructure.
 ### Editor
 The Editor directory contains a link to the map visualizer code that is contained in the Common directory.
 
-### Feedback
-Grader feedback on assignments and self-evals.
-
 ### META-INF
 This directory contains the manifest file tht is used to build our JAR. It must be placed at the top level to fix an issue of "no manifest attribute found" when running JAR.
 
