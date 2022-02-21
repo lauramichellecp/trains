@@ -1,0 +1,11 @@
+{
+    "width" : 400,
+    "height": 400,
+    "cities": [["Seattle", [25, 25]], ["Boston", [375, 25]], ["Texas", [250, 375]]],
+    "connections": {"Boston": {"Seattle": {"red": 3,
+                                           "blue": 4,
+                                            "white": 5,
+                                            "green":  4},
+                                "Texas": {"green": 5}},
+                    "Seattle": {"Texas": {"blue": 4}}}
+}

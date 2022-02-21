@@ -1,0 +1,33 @@
+{
+  "width" : 400,
+  "height": 400,
+  "cities": [["Seattle", [25, 25]], ["Boston", [375, 25]], ["Texas", [250, 375]], ["Raleigh", [350, 350]],
+    ["New York", [399, 30]], ["Miami", [306, 300]], ["a", [381, 123]], ["b", [381, 123]],
+    ["c", [381, 123]], ["d", [381, 123]], ["e", [381, 123]], ["f", [381, 123]]],
+  "connections": {
+    "Boston": {
+      "Seattle": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "Texas": {"blue": 3},
+      "Miami": {"red": 5, "blue": 5},
+      "a": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "b": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "c": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "d": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "e": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "f": {"red": 4, "blue": 5, "white": 4, "green": 4}
+    },
+    "Raleigh": {
+      "Seattle": {"blue": 3},
+      "a": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "b": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "c": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "d": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "e": {"red": 4, "blue": 5, "white": 4, "green": 4},
+      "f": {"red": 4, "blue": 5, "white": 4, "green": 4}
+    },
+    "Texas": {
+      "Miami":  {"red":  5, "blue":  5},
+      "New York": {"blue": 3, "red": 4}
+    }
+  }
+}

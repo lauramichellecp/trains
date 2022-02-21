@@ -1,0 +1,6 @@
+{
+  "width" : 400,
+  "height": 400,
+  "cities": [["Seattle", [100, 100]], ["Dodge City", [150, 200]]],
+  "connections": {"Dodge City": {"Seattle": {"white": 3}}}
+}
