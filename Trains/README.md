@@ -1,14 +1,14 @@
 # CS4500 Software Development Project
 
 ### Admin
-Contains a link to the referee game state source code.
+The Admin directory contains the referee game state source code.
 
 ### Common
 The Common directory is the code sources root. It contains all the source code for the Trains
-game and soon to be built surrounding infrastructure.
+game and surrounding infrastructure.
 
 ### Editor
-The Editor directory contains a link to the map visualizer code that is contained in the Common directory.
+The Editor directory contains the map visualizer code that is contained in the Common directory.
 
 ### META-INF
 This directory contains the manifest file tht is used to build our JAR. It must be placed at the top level to fix an issue of "no manifest attribute found" when running JAR.
@@ -19,6 +19,12 @@ The Other directory contains our unit harnesses, and example files for our harne
 ### Planning
 The Planning directory contains an analysis of the Trains project plan, and a data definition for 
 Trains game board. 
+
+### Player
+The Player directory contains the player game state, the Player API, and the stategy classes. 
+
+### Remote 
+The Remote directory contains the networking / remote interactions between the admin components and the remote players, includes a proxy admin and a proxy player.
 
 ```plan-analysis.md``` Includes 5 questions that we felt were unclear from the project description.
 
